@@ -41,8 +41,8 @@ const MobileNav = ({ user }: MobileNavProps) => {
           >
             <Image
               src="/icons/logo.svg"
-              width={34}
-              height={34}
+              width={50}
+              height={50}
               alt="Binko Logo"
             />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
