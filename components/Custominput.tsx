@@ -20,7 +20,7 @@ interface CustomInput {
   placeholder: string;
 }
 
-const Custominput = ({ control, name, label, placeholder }: CustomInput) => {
+const CustomInput = ({ control, name, label, placeholder }: CustomInput) => {
   return (
     <FormField
       control={control}
@@ -47,4 +47,4 @@ const Custominput = ({ control, name, label, placeholder }: CustomInput) => {
   );
 };
 
-export default Custominput;
+export default CustomInput;
